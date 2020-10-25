@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="utf-8"/>
+</head>
+<body>
+<form action="/aaa">
+<p>
+ログイン ID:<input type="text" name="tb" value="XXXXXXXXXXx"/>
+</p>
+<p>
+パスワード:
+<input type="password" name="pb" value="xxxxxxxxx"/>
+</p>
+<p>
+学年:
+
+<input type="radio" name="rb" value="1 年" checked>1 年
+<input type="radio" name="rb" value="2 年">2 年
+<input type="radio" name="rb" value="3 年">3 年
+<input type="radio" name="rb" value="4 年">4 年
+</p>
+<p>
+学科:
+<input type="checkbox" name="cb" value="経営ビジネス" checked>経営ビジネス
+<input type="checkbox" name="cb" value="建築デザイン">建築デザイン
+<input type="checkbox" name="cb" value="電気電子工学">電気電子工学
+<input type="checkbox" name="cb" value="情報">情報
+</p>
+<p>
+担任の先生:
+<select name="combo">
+<option value="高橋先生" selected >高橋先生
+<option value="寺井先生">寺井先生
+<option value="山崎先生">山崎先生
+<option value="XX 先生">XX 先生
+<option value="XX 先生">XX 先生
+<option value="XX 先生">XX 先生
+<option value="XX 先生">XX 先生
+</select>
+</p>
+<p>
+授業評価:
+<select name="list" size="3" multiple>
+<option value="良くない" selected>良くない
+<option value="普通">普通
+<option value="最高">最高
+</select>
+</p>
+<p>
+なぜその評価?:
+<textarea name="ta" rows="5" cols="30"></textarea>
+</p>
+
+<p>
+次回担任希望:
+<input type= name="hi" value="XX 先生">
+</p>
+<p>
+この内容でよろしいですか?:<input type="submit" name="sb" value="送信"/>
+</p>
+<p>
+リセット:<input type="reset" />
+</p>
+</form>
+</body>
+</html>
